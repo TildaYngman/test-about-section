@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#shape {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    opacity: 0;
+    border-top: 350px solid transparent;
+    border-bottom: 350px solid transparent;
+    border-left: 900px solid #a2d191;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 70px;
+    position: absolute; 
+    top: 0; 
+    right: 2000px; 
+    text-align: right;
+    text-transform: uppercase;
+}
+
+h1:hover {
+    color: #f44336;
+}
+
+#about-text {
+    width: 500px;
+    height: 550px;
+    position: absolute; 
+    top: 110px; 
+    right: 20px;
+    opacity: 0;
+    text-align: right;
+    font-size: 25px;	
+}
+
+#line {
+    width: 550px;
+    height: 0px;
+    position: absolute; 
+    top: 120px; 
+    right: 20px; 
+    border-left: 2px dotted black;
+    padding-left: 20px;
+}
+
+#btnMenu {
+    position: fixed;
+    bottom: 0;
+    left: 2000px;
+}
+
+.home-button {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-shadow:
+    -1px -1px 0 #f44336,
+    1px -1px 0 #f44336,
+    -1px 1px 0 #f44336,
+    1px 1px 0 #f44336;
+    width: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 350%;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    color: #f44336;
+    text-shadow:
+    -1px -1px 0 #f44336,
+    1px -1px 0 #f44336,
+    -1px 1px 0 #f44336,
+    1px 1px 0 #f44336
+    ;
+}
+.home-button:focus {
+    color: #f44336;
+    outline: none;
+    text-shadow:
+    -1px -1px 0 #f44336,
+    1px -1px 0 #f44336,
+    -1px 1px 0 #f44336,
+    1px 1px 0 #f44336
+    ;
+}
